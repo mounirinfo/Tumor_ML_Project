@@ -23,9 +23,7 @@ y=dataset.iloc[:,1].values
 from sklearn.preprocessing import LabelEncoder
 labelEncoder_y=LabelEncoder()
 y=labelEncoder_y.fit_transform(y)
-# 4- Splitting the dataset into the Training set and Test set
-from sklearn.cross_validation import train_test_split
-X_train,X_test,y_train,y_test=train_test_split(X,y,test_size=0.2,random_state=0)
+
 # 4- fit data
 from sklearn.preprocessing import StandardScaler
 sc=StandardScaler()
