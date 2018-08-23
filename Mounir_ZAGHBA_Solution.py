@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 """
-About: ttuomor Analysis project
+About: Tumor Prediction project
 
 Created on Fri Aug 10 16:01:00 2018
 
-Last update Date  Aug 10 16:01:00 2018
+Last update Date  Aug 23 16:01:00 2018
 
 @author: Mounir ZAGHBA
 """
