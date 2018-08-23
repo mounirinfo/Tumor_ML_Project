@@ -10,7 +10,7 @@ Last update Date  Aug 23 16:01:00 2018
 """
 # 1- import lbraries
 import pandas as pd
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 from sklearn.metrics import confusion_matrix
 
 # 2- load data set
@@ -18,12 +18,6 @@ dataset = pd.read_csv('data.csv')
 X=dataset.iloc[:,2:-1].values
 y=dataset.iloc[:,1].values
 
-# --> plot dataset to see variables
-
-
-plt.plot(X) 
-plt.ylabel('dataset') 
-plt.show()
 
 # 3- encoding the Dependent Variable
 from sklearn.preprocessing import LabelEncoder
